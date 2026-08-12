@@ -1,0 +1,23 @@
+[
+  {
+    "id": "example-cave-entrance",
+    "name": "Example Cave Entrance",
+    "aliases": [],
+    "category": "cave",
+    "mapContextId": "surface",
+    "coordinates": {
+      "x": 0.56,
+      "y": 0.46
+    },
+    "coordinatePrecision": "area",
+    "environment": "surface",
+    "description": "Fictional surface entrance used to exercise underground categories and warnings.",
+    "dangerLevel": 3,
+    "spawnType": "fixed",
+    "confidence": "high",
+    "sourceIds": [
+      "synthetic-example"
+    ],
+    "notes": "Synthetic example; not a real game location."
+  }
+]

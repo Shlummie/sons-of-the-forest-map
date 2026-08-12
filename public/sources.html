@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sources & methodology · Sons of the Forest Map</title>
+    <style>
+      :root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; background: #07110c; color: #e6f0dc; }
+      body { max-width: 880px; margin: 0 auto; padding: 36px 22px 60px; line-height: 1.6; }
+      a { color: #c4df82; }
+      .eyebrow { color: #b8d47b; font-size: .75rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+      h1, h2 { line-height: 1.15; }
+      h1 { font-size: clamp(2rem, 6vw, 4rem); margin: .2rem 0 1rem; }
+      h2 { margin-top: 2.2rem; color: #d4e8a8; }
+      li { margin: .5rem 0; }
+      .notice { border: 1px solid #405a3c; border-radius: 12px; padding: 14px 16px; background: #102118; }
+      code { color: #d7e6bf; }
+    </style>
+  </head>
+  <body>
+    <p class="eyebrow">Unofficial field guide</p>
+    <h1>Sources & methodology</h1>
+    <p class="notice">This is a non-commercial fan project. The island image is bundled for offline use as an attributed community/in-game reference asset; the game and its underlying assets remain the property of their respective owners.</p>
+    <h2>Primary references</h2>
+    <ul>
+      <li><a href="https://steamcommunity.com/app/1326470/allnews/">Steam Community · Sons of the Forest news and patch notes</a></li>
+      <li><a href="https://sonsoftheforest.wiki.gg/wiki/Updates">Sons of the Forest Wiki · Updates</a></li>
+      <li><a href="https://sonsoftheforest.wiki.gg/wiki/Locations">Sons of the Forest Wiki · Locations</a></li>
+      <li><a href="https://github.com/lmachens/sons-of-the-forest-map">lmachens/sons-of-the-forest-map · open-source coordinate lead</a></li>
+      <li><a href="https://apps.apple.com/us/app/mapgenie-sotf-map/id6446088720">MapGenie listing · coverage checklist only</a></li>
+      <li><a href="https://www.pcgamesn.com/sons-of-the-forest/shovel-location">PCGamesN · shovel location guide</a> and <a href="https://www.pcgamer.com/sons-of-the-forest-weapons-gun-locations/">PC Gamer · weapon location guide</a></li>
+    </ul>
+    <h2>How to read the data</h2>
+    <p>Coordinates are normalized from the source project’s world range of <code>-2000..2000</code> into <code>0..1</code>. Cave and bunker coordinates stay in separate interior contexts and are never silently projected onto the surface map. Confidence, coordinate precision, spawn type, and unresolved review status are explicit fields.</p>
+    <p>The repository includes the full audit trail in <code>SOURCES.md</code>, <code>DATA_METHODOLOGY.md</code>, <code>UNRESOLVED_LOCATIONS.md</code>, and <code>VERIFICATION_REPORT.md</code>.</p>
+    <p><a href="./">← Return to the interactive map</a></p>
+  </body>
+</html>

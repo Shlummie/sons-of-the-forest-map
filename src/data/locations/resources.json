@@ -1,0 +1,26 @@
+[
+  {
+    "id": "example-supply-cache",
+    "name": "Example Supply Cache",
+    "aliases": [
+      "Demo Cache"
+    ],
+    "category": "resources",
+    "mapContextId": "surface",
+    "coordinates": {
+      "x": 0.73,
+      "y": 0.68
+    },
+    "coordinatePrecision": "area",
+    "environment": "surface",
+    "description": "Fictional resource marker used to demonstrate progress and search behavior.",
+    "dangerLevel": 2,
+    "spawnType": "renewable",
+    "respawns": true,
+    "confidence": "high",
+    "sourceIds": [
+      "synthetic-example"
+    ],
+    "notes": "Synthetic example; not a real game location."
+  }
+]

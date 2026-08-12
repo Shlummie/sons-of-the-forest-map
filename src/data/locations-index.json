@@ -1,0 +1,55 @@
+[
+  {
+    "id": "example-lookout",
+    "name": "Example Lookout",
+    "aliases": [
+      "Demo Landmark"
+    ],
+    "category": "navigation",
+    "mapContextId": "surface",
+    "coordinates": {
+      "x": 0.24,
+      "y": 0.31
+    },
+    "coordinatePrecision": "area",
+    "environment": "surface",
+    "dangerLevel": 1,
+    "spawnType": "fixed",
+    "confidence": "high"
+  },
+  {
+    "id": "example-cave-entrance",
+    "name": "Example Cave Entrance",
+    "aliases": [],
+    "category": "cave",
+    "mapContextId": "surface",
+    "coordinates": {
+      "x": 0.56,
+      "y": 0.46
+    },
+    "coordinatePrecision": "area",
+    "environment": "surface",
+    "dangerLevel": 3,
+    "spawnType": "fixed",
+    "confidence": "high"
+  },
+  {
+    "id": "example-supply-cache",
+    "name": "Example Supply Cache",
+    "aliases": [
+      "Demo Cache"
+    ],
+    "category": "resources",
+    "mapContextId": "surface",
+    "coordinates": {
+      "x": 0.73,
+      "y": 0.68
+    },
+    "coordinatePrecision": "area",
+    "environment": "surface",
+    "dangerLevel": 2,
+    "spawnType": "renewable",
+    "respawns": true,
+    "confidence": "high"
+  }
+]

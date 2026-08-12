@@ -1,0 +1,9 @@
+{
+  "name": "Sons of the Forest Interactive Map",
+  "short_name": "SOTF Map",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#07100d",
+  "theme_color": "#0d1713",
+  "icons": [{"src":"/icons/map-mark.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

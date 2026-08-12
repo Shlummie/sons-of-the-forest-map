@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Map marker">
+  <path fill="#b8d47b" d="M32 4c-12.15 0-22 9.85-22 22 0 15.73 22 34 22 34s22-18.27 22-34C54 13.85 44.15 4 32 4Z"/>
+  <circle cx="32" cy="26" r="8" fill="#10231a"/>
+  <path fill="#dbe9b2" d="m32 13 3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8Z"/>
+</svg>
